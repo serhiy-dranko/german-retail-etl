@@ -90,10 +90,6 @@ Mockaroo      data/raw/       Sheets        data/cleaned/    Sheets    Dashboard
 
 ## What I Learned
 
-[3–5 honest, specific bullet points. Not "I learned ETL".
-For example: "Imputing missing values with a city average is fast but hides
-the real distribution — I would not use it for a satisfaction score KPI"]
-
 1. Spreadsheet-based ETL is transparent and easy to audit, but it becomes fragile quickly because a single formula or manual edit can silently change downstream results.
 2. Return rates and satisfaction scores do not always move together, which means operational issues (returns) and perception issues (satisfaction) need to be analyzed separately rather than treated as the same signal.
 3. Aggregated city-level insights can hide important product-level problems, so slicing data only by geography or only by product is not enough for decision making.
