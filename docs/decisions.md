@@ -4,6 +4,7 @@
 
 **Date:** 05.06.2026
 **Context:** 4 rows had blank satisfaction_score values after extraction
+
 **Options considered:**
 - Delete the rows entirely
 - Impute with the overall dataset average
@@ -21,6 +22,7 @@ satisfaction score distributions should note that 4 values are estimated, not re
 ## Decision 2 — Deleting the 1899 timestamp row rather than correcting it
 
 **Context:** One row had a timestamp year of 1899 (row 666) — clearly a data entry error
+
 **Options considered:**
 - Attempt to guess the correct date
 - Replace with today's date
@@ -36,6 +38,7 @@ satisfaction score distributions should note that 4 values are estimated, not re
 ## Decision 3 — Setting zero-price rows to NULL rather than estimating a price
 
 **Context:** Three rows had a quantity =< 0  — clearly a data entry error
+
 **Options considered:**
 - Attempt to guess the correct quantity
 - Replace with 0
@@ -52,6 +55,7 @@ satisfaction score distributions should note that 4 values are estimated, not re
 ## Decision 4 — Using SUMIF/AVERAGEIF formulas rather than pivot tables
 
 **Context:** Need to aggregate data by city, product, and payment method for reporting.
+
 **Options considered:**
  - Pivot tables
  - Fill in tables manually using a calculator
@@ -68,6 +72,7 @@ satisfaction score distributions should note that 4 values are estimated, not re
 [Why is this separation important? What would break if you edited raw_data directly?]
 
 **Context:** The dataset needed cleaning and transformation before analysis, but also required a reliable source of truth for debugging and auditability.
+
 **Options considered:**
  - Clean everything in the same sheet
  - Edit raw_data directly
