@@ -2,6 +2,7 @@
 
 ### raw dataset (`mockaroo_export.csv`)
 
+
 | Column | Data Type | Description | Example Value | Notes |
 |---|---|---|---|---|
 | transaction_id | Integer | Unique identifier for each transaction | 1, 2, 3 | Auto-incremented by Mockaroo |
