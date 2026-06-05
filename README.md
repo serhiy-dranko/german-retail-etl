@@ -84,7 +84,7 @@ Mockaroo      data/raw/       Sheets        data/cleaned/    Sheets    Dashboard
 
 ## Google Sheets Workbook
 
-[\[ETL_Pipeline_German_Retail](https://docs.google.com/spreadsheets/d/1pWYyMCEyost35KsXeJIOLMIdUPGNk8Q_bWxhlbyaF1Q/edit?usp=sharing)
+[\[[ETL_Pipeline_German_Retail]](https://docs.google.com/spreadsheets/d/1pWYyMCEyost35KsXeJIOLMIdUPGNk8Q_bWxhlbyaF1Q/edit?usp=sharing)
 
 ---
 
