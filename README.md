@@ -22,6 +22,7 @@ This project delivers a retail analytics dashboard covering **999 transactions a
 
 **Total pipeline output:** €3,371,887 in processed revenue data, a 19.62% average return rate baseline.
 
+![Dashboard](data/image/Dashboard.png)
 
 ---
 
@@ -50,7 +51,9 @@ german-retail-etl/
 │   ├── raw/
 │   │   └── mockaroo_export.csv        ← Your original Mockaroo file, unmodified
 │   └── cleaned/
-│       └── german_retail_cleaned.csv  ← Exported cleaned_data tab from Day 2
+│   │   └── german_retail_cleaned.csv  ← Exported cleaned_data tab from Day 2
+│   └── image
+│         └── Dasboard.png
 ├── analysis/
 │   └── ANALYSIS.md            ← Your EDA findings written up
 ├── docs/
