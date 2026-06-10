@@ -78,7 +78,6 @@ satisfaction score distributions should note that 4 values are estimated, not re
  - Edit raw_data directly
  - Copy raw_data into a separate cleaned_data tab
 
-
  **Decision:** Copy raw_data into a separate cleaned_data tab
  **Reason:** This preserves the original dataset as an immutable source of truth while allowing transformations, corrections, and feature creation without risking data loss or overwriting mistakes.
  **Risk:** Everything is still manual, so if the file is lost or broken, the whole ETL pipeline is gone.
