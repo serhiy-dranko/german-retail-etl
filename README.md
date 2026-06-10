@@ -22,8 +22,7 @@ This project delivers a retail analytics dashboard covering **999 transactions a
 
 **Total pipeline output:** €3,371,887 in processed revenue data, a 19.62% average return rate baseline.
 
-![Dashboard](https://github.com/serhiy-dranko/data/image/Dashboard.png)
-
+![Dashboard](data/Image/Dashboard.png)
 ---
 
 ## The Data Value Chain in This Project
