@@ -10,7 +10,7 @@ A complete end-to-end data project simulating a retail analytics pipeline for
 This project delivers a retail analytics dashboard covering **999 transactions across 8 German cities**, transforming raw, unstructured sales data into clear business insights.
 
 **What was built:**
-- A complete ETL pipeline — from synthetic data generation through cleaning, aggregation, and visualization
+- A complete ETL pipeline - from synthetic data generation through cleaning, aggregation, and visualization
 - A German-language dashboard with KPI cards and 3 charts (revenue by city, payment methods, units sold by product)
 - Structured analysis across 4 dimensions: city performance, product performance, return behavior, and payment preferences
 
