@@ -7,10 +7,21 @@ A complete end-to-end data project simulating a retail analytics pipeline for
 
 ## Project Summary
 
-This project builds a simple end-to-end ETL pipeline that processes synthetic retail transaction data generated from Mockaroo. 
-It extracts raw CSV sales records, cleans and standardizes the data in Google Sheets, improve it with calculated metrics such as total revenue and data quality flags, and loads the processed results into a dashboard-ready format for analysis. 
-The final output enables analysis of product performance, regional sales differences, customer satisfaction, return behavior, and payment preferences. 
-From this project, a user can learn how raw, inconsistent transactional data is transformed into structured business insights and how data quality issues directly impact reporting accuracy and decision making.
+This project delivers a retail analytics dashboard covering **999 transactions across 8 German cities**, transforming raw, unstructured sales data into clear business insights.
+
+**What was built:**
+- A complete ETL pipeline — from synthetic data generation through cleaning, aggregation, and visualization
+- A German-language dashboard with KPI cards and 3 charts (revenue by city, payment methods, units sold by product)
+- Structured analysis across 4 dimensions: city performance, product performance, return behavior, and payment preferences
+
+**What was found:**
+- **Hamburg** leads in revenue (€494,351) despite not being the largest city. Population size alone doesn't predict sales.
+- **Laptops** have the highest return rate (4.73%) among all products, signaling a potential quality or expectation mismatch.
+- **Maus** is the top revenue product (€487,457 across 783 units), while **Tastatur** has the lowest customer satisfaction (2.75)
+- Payment methods are almost evenly split across PayPal, Kreditkarte, Banküberweisung and Barzahlung that mean we have no single method dominates
+
+**Total pipeline output:** €3,371,887 in processed revenue data, a 19.62% average return rate baseline.
+
 
 ---
 
